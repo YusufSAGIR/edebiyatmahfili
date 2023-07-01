@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Montserrat:wght@300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,600&family=Thasadith&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #91B6BE;
+}
+
+.container{
+    margin: 100px auto;
+    width: 805px;
+    height: 154px;
+}
+
+.header{
+    font-family: 'thasadith', sans-serif;
+    border: 1px solid white;
+    text-align: center;
+    padding: 50px 200px;
+    margin-bottom: 20px;
+    transition: 0.5 ease-in-out;
+}
+
+.header h1{
+    font-size: 30px;
+}
+
+.header h1:hover{
+    color: white;
+    
+}
+
+.header p{
+    font-size: 18px;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.main .main-right{
+    display: flex;
+    flex-direction: column;
+    border:  transparent;
+}
+
+
+
+
+.main .main-right .main-right-up ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.main .main-right .main-right-up ul li{
+    list-style-type: none;
+    padding: 10px 10px;
+    border: 1px solid white;
+    margin: 10px;
+    transition: 0.5 ease;
+}
+
+.main .main-right .main-right-up ul li:hover{
+    background-color: black;
+    color: white;
+}
+
+.main .main-right .main-right-up a{
+        text-decoration: none;
+        color: black;  
+        transition: 0.5 ease; 
+}
+
+.main .main-right .main-right-up a:hover{
+    background-color: black;
+    color: white;
+}
+
+.main .main-right .main-right-contain{
+    border: 1px solid white;
+}
+.main .main-right .main-right-contain .right-first{
+    width: 540px;
+    height: 39px;
+    background-color: #C4C4C4;
+    margin: 7px 20px 7px 20px;
+}
+
+.main .main-right .main-right-contain .right-second{
+    width: 81px;
+    height: 12px;
+    background-color: #C4C4C4;
+    margin: 5px auto;
+}
+
+.main .main-right .main-right-contain .right-third{
+    width: 540px;
+    height: 251px;
+    background-color: #C4C4C4;
+    margin: 7px 20px 20px 20px;
+}
+
+.main .main-left{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 407px;
+    border: 1px solid white;
+    justify-content: space-around;
+    
+}
+
+.main .main-left .card{
+    width: 126px;
+    height: 111px;
+    background-color: #C4C4C4;
+    margin: auto;
+}
+
+.article{
+    border: 1px solid white;
+    margin-top: 40px;
+}
+
+.article-a{
+    border: 1px solid white;
+    padding: 20px;
+
+}
+
+.article-a p{
+    background-color: #C4C4C4;
+}
+
+.article-a h1{
+    color: white;
+}
+
+footer{
+    border: 1px solid white;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #C4C4C4;
+}
+
+footer .footer-left{
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+footer .footer-centre{
+ align-self: center;
+}
+
+footer .footer-centre p{
+    background-color: #C4C4C4;
+}
+
+footer .footer-right{
+    border: 1px solid white;
+    justify-content: space-between;
+    padding: 20px;
+    cursor: pointer;
+
+}
+
+footer .footer-left input{
+    border: 
+    1px solid white;
+    cursor: pointer;
+    color: white;
+    padding: 5px;
+}
+
+footer .footer-left input:hover{
+    background-color: black;
+    color: white;
+}
+
+footer .footer-left textarea{
+    border: 
+    1px solid white;
+    cursor: pointer;
+    color: white;
+    padding: 5px;
+}
+
+footer .footer-left textarea:hover{
+    background-color: black;
+    color: white;
+}
+
+footer .footer-right i{
+    background-color: #C4C4C4;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+footer .footer-right i:hover{
+    background-color: black;
+    color: white;
+}
+
+
